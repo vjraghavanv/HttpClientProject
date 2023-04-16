@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.094 sec <<< FAILURE! - in TestSuite
+getAPITestwithoutHeaders(com.qa.test.GetAPITest)  Time elapsed: 0.79 sec  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [6]
+	at com.qa.test.GetAPITest.getAPITestwithoutHeaders(GetAPITest.java:65)
+
+getAPITestwithHeaders(com.qa.test.GetAPITest)  Time elapsed: 0.128 sec  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [6]
+	at com.qa.test.GetAPITest.getAPITestwithHeaders(GetAPITest.java:121)
+
